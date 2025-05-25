@@ -1,0 +1,380 @@
+body {
+  background: linear-gradient(180deg, #eaf0f7 0%, #f8f8f8 100%);
+  color: #222;
+  margin: 0;
+  font-family: "Noto Sans TC", "Roboto", Arial, sans-serif;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.theme-mrt {
+   box-shadow: 0 0 64px #6df6ff22; 
+}
+.theme-alishan {
+   box-shadow: 0 0 60px #92ed8c29; 
+}
+.theme-keelung {
+   box-shadow: 0 0 60px #82daf649; 
+}
+.theme-nightmarket {
+   box-shadow: 0 0 60px #ffdb8366; 
+}
+.theme-temple {
+   box-shadow: 0 0 64px #ffd8a649; 
+}
+.theme-default {
+   box-shadow: 0 0 52px #eee4; 
+}
+
+
+.soundscape-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.soundscape-main {
+  width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 3vw;
+}
+
+.soundscape-block {
+  width: 100vw;
+  padding: 0 0 0 0;
+  min-height: 66vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  margin: 3vw 0 5vw 0;
+  border-radius: 2.5rem;
+  box-shadow: 0 4px 28px #b6c7df2e;
+  opacity: 0;
+  transform: translateY(60px) scale(0.98);
+  transition: opacity 0.7s cubic-bezier(.56,.12,.17,.97), transform 0.7s;
+  /* transition: box-shadow 0.5s */
+}
+
+.soundscape-block.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  z-index: 2;
+}
+
+.soundscape-block:not(:last-child) {
+  border-bottom: 0px solid #eee;
+}
+
+.soundscape-inner {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.93);
+  border-radius: 2.2rem;
+  box-shadow: 0 2px 32px #0002;
+  padding: 3rem 1.7rem 2.5rem 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.soundscape-title {
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+  color: #246;
+  text-shadow: 0 1px 12px #dde3;
+  letter-spacing: 2.2px;
+  background: rgba(255,255,255,0.36);
+  border-radius: 1.1rem;
+  padding: 0.3rem 1.5rem;
+}
+
+.soundscape-media {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.3rem;
+}
+
+.main-image {
+  width: 97%;
+  max-width: 520px;
+  min-height: 170px;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 1.2rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 18px #4442;
+  transition: transform 0.24s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.main-image:hover {
+  transform: scale(1.045) rotate(-2deg);
+  box-shadow: 0 12px 40px #26e3;
+  filter: brightness(1.06) drop-shadow(0 0 24px #eee8);
+}
+
+.soundscape-desc {
+  font-size: 1.18rem;
+  margin: 1.5rem auto 0.3rem auto;
+  color: #374;
+  letter-spacing: 1.2px;
+}
+
+.soundscape-story {
+  font-size: 1.23rem;
+  font-family: "Noto Serif TC", "serif";
+  color: #2b3979;
+  letter-spacing: 1.3px;
+  background: rgba(240,247,255,0.65);
+  border-radius: 1.1rem;
+  margin: 1.3rem 0 1.2rem 0;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 4px 24px #6cf2;
+  text-align: center;
+  font-style: italic;
+}
+
+.soundscape-card {
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 2px 16px #0002;
+  padding: 2rem 1.2rem 1rem 1.2rem;
+  width: 380px;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.soundscape-card:hover {
+  box-shadow: 0 8px 32px #0003;
+  transform: translateY(-8px) scale(1.025);
+}
+
+.soundscape-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1.1rem;
+  margin-top: 0;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 8px #8883;
+}
+
+.soundscape-card img {
+  width: 96%;
+  border-radius: 1.2rem;
+  margin-bottom: 1.3rem;
+  box-shadow: 0 1px 10px #0002;
+  transition: transform 0.24s, box-shadow 0.3s;
+}
+.soundscape-card img:hover {
+  transform: scale(1.045);
+  box-shadow: 0 8px 32px #06f3;
+}
+
+.soundscape-card p {
+  font-size: 1.04rem;
+  margin-top: 1.1rem;
+  color: #444;
+}
+
+/* Gallery 區塊 */
+
+/* Gallery 新增底部間距 */
+.gallery-main {
+  width: 98%;
+  max-width: 320px;
+  border-radius: 1rem;
+  margin: 0 auto 0.7rem auto;
+  margin-bottom: 1.2rem; 
+}
+
+.gallery-thumbs {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+.gallery-thumb-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.4rem;
+  border: 2px solid #eee;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: border 0.2s, opacity 0.2s;
+}
+.gallery-thumb-img.active {
+  border: 2.5px solid #4ea;
+  opacity: 1;
+}
+
+/* RWD 響應式 */
+
+@media (max-width: 900px) {
+  .app {
+    max-width: 98vw;
+    padding: 0.6rem;
+  }
+  .soundscape-card {
+    width: 96vw;
+    max-width: 96vw;
+    padding: 1.1rem 0.2rem 0.7rem 0.2rem;
+  }
+  .soundscape-block {
+    flex-direction: column !important;
+    padding: 3vw 0 3vw 0 !important;
+    border-radius: 1.2rem;
+  }
+  .background-circle {
+    margin: 0 auto 18px auto !important;
+    width: 85vw !important;
+    height: 85vw !important;
+    min-width: 210px; max-width: 98vw;
+  }
+  .soundscape-inner {
+    width: 94vw !important;
+    min-width: 0 !important;
+    max-width: 98vw !important;
+  }
+  .story-box {
+    margin: 1.1rem auto 0 auto; 
+    max-width: 98vw;
+    padding: 1.6rem 1.3rem 1.2rem 1.3rem;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .soundscape-inner { max-width: 98vw; padding: 2rem 0.4rem 1.2rem 0.4rem;}
+  .main-image { max-width: 97vw; }
+}
+
+
+@media (max-width: 650px) {
+  .soundscape-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+  }
+  .soundscape-card {
+    width: 98vw;
+    max-width: 98vw;
+    min-width: 0;
+    padding: 0.7rem 0.1rem 0.6rem 0.1rem;
+  }
+  .gallery-main {
+    max-width: 95vw;
+  }
+}
+
+.bg-carousel {
+  opacity: 0.85;
+  transition: opacity 0.8s cubic-bezier(.55,.13,.18,.99);
+  will-change: opacity;
+  border-radius: 1.3rem;
+}
+
+.story-fadein {
+  opacity: 0;
+  transform: translateX(60px);
+  transition:
+    opacity 0.8s cubic-bezier(.56,.12,.17,.97) 0.45s,   /* 延遲 0.45 秒 */
+    transform 0.8s 0.35s;
+}
+.story-fadein.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fadeout {
+  opacity: 0 !important;
+  transition: opacity 0.28s cubic-bezier(.57,.06,.23,1.02);
+}
+
+.fadein {
+  opacity: 0.82 !important;
+}
+.fade-in {
+  opacity: 1;
+  transform: translateY(30px);
+  transition: opacity 0.45s cubic-bezier(.45,.02,.23,1.02);
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.soundscape-block {
+  opacity: 0;
+  transform: translateY(64px) scale(.98);
+  transition:
+    opacity 0.7s cubic-bezier(.56,.12,.17,.97) 0s,
+    transform 0.8s 0s;
+}
+.soundscape-block.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.soundscape-inner {
+  background: rgba(255,255,255,0.93);
+  border-radius: 2.2rem;
+  box-shadow: 0 2px 32px #0002;
+  padding: 3rem 1.7rem 2.5rem 1.7rem;
+}
+
+/*主題 story 右側浮出動畫 */
+.story-fadein {
+  opacity: 0;
+  transform: translateX(60px);
+  transition:
+    opacity 0.8s cubic-bezier(.56,.12,.17,.97) 0.45s,   /* 延遲 0.45 秒 */
+    transform 0.8s 0.35s;
+}
+.story-fadein.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.story-box {
+  max-width: 380px;
+  background: linear-gradient(110deg, #f8fafd 80%, #e4f0fc 100%);
+  color: #365585;
+  font-size: 1.19rem;
+  padding: 2.1rem 2.1rem 1.5rem 2.3rem;
+  border-radius: 2rem;
+  box-shadow: 0 8px 48px #acc5ee2a;
+  margin-left: 2.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.2rem;
+  font-family: "Noto Serif TC", "serif";
+  letter-spacing: 1.5px;
+  line-height: 1.9;
+  text-align: left;
+  position: relative;
+}
+
+

@@ -1,0 +1,96 @@
+[
+{
+  "id": "mrt_station",
+  "category": "城市交通",
+  "title": "捷運站體",
+  "desc": "台北捷運站的月台、人群與列車進站聲，展現大眾運輸系統獨有的流動節奏與都會日常氛圍。",
+  "sound": "/assets/sounds/mrt_station_plaforn.mp3",
+  "main_image": "/assets/images/platform_overview.jpg",
+  "gallery": [
+    "/assets/images/platform_overview.jpg",
+    "/assets/images/platform_crowd.jpg",
+    "/assets/images/platform_train_arrival1.jpg"
+  ],
+  "backgrounds": [
+    "/assets/images/platform_train_arrival2.jpg",
+    "/assets/images/platform_side1.jpg",
+    "/assets/images/platform_side2.jpg",
+    "/assets/images/station_exterior1.jpg",
+    "/assets/images/station_exterior2.jpg"
+  ]
+},
+{
+  "id": "alishan_birds",
+  "category": "自然環境",
+  "title": "阿里山鳥鳴",
+  "desc": "清晨的阿里山，杉林、茶園、雲海交錯，伴隨鳥鳴與森林的聲音。",
+  "sound": "/assets/sounds/alishan_forest_trees.mp3",
+  "main_image": "/assets/images/alishan_pond_bridge.jpg",
+  "gallery": [
+    "/assets/images/alishan_pond_bridge.jpg",
+    "/assets/images/alishan_ridge_light.jpg",
+    "/assets/images/alishan_sunrise_sea.jpg"
+  ],
+  "backgrounds": [
+    "/assets/images/alishan_forest_upshot.jpg",
+    "/assets/images/alishan_cloudroad_sunset.jpg",
+    "/assets/images/alishan_tea_field.jpg",
+    "/assets/images/alishan_tea_workers.jpg",
+    "/assets/images/alishan_tea_farview.jpg",
+    "/assets/images/alishan_forest_path.jpg",
+    "/assets/images/alishan_forest_stairs.jpg"
+  ]
+},
+{
+  "id": "keelung_waves",
+  "category": "城市海岸",
+  "title": "基隆海浪",
+  "desc": "和平島、港灣、漁船與城市天際線，展現基隆的多層次海港風貌。",
+  "sound": "/assets/sounds/daping_coast_waves.mp3",
+  "main_image": "/assets/images/keelung_nightview.jpg",
+  "gallery": [
+    "/assets/images/keelung_nightview.jpg",
+    "/assets/images/keelung_fishingboat_main.jpg"
+  ],
+  "backgrounds": [
+    "/assets/images/keelung_landmark.jpg",
+    "/assets/images/keelung_harbor_modern.jpg",
+    "/assets/images/keelung_harbor_city.jpg",
+    "/assets/images/keelung_fishingboat_daily.jpg"
+  ]
+},
+{
+  "id": "nightmarket",
+  "category": "城市聲色",
+  "title": "夜市叫賣",
+  "desc": "台灣夜市的熱鬧叫賣、人潮、燈火與街頭美食，交織成台灣城市獨有的夜色。",
+  "sound": "/assets/sounds/nightmarket_crowd.mp3",
+  "main_image": "/assets/images/nightmarket_overview.jpg",
+  "gallery": [
+    "/assets/images/nightmarket_overview.jpg",
+    "/assets/images/nightmarket_gate_raohest.jpg",
+    "/assets/images/nightmarket_street1.jpg"
+  ],
+  "backgrounds": [
+    "/assets/images/nightmarket_crowd2.jpg",
+    "/assets/images/food_stall_grill.jpg",
+    "/assets/images/lanterns_jiufen_people.jpg"
+  ]
+},
+{
+  "id": "temple_parade",
+  "category": "民俗節慶",
+  "title": "廟會鑼鼓",
+  "desc": "廟宇香火、神轎、鑼鼓與萬人祈福的熱鬧廟會聲景。",
+  "sound": "/assets/sounds/temple_parade_drums.mp3",
+  "main_image": "/assets/images/temple_parade_night1.jpg",
+  "gallery": [
+    "/assets/images/temple_parade_float1.jpg",
+    "/assets/images/temple_parade_float2.jpg"
+  ],
+  "backgrounds": [
+    "/assets/images/temple_parade_crowd1.jpg"
+  ]
+}
+
+]

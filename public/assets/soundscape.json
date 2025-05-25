@@ -1,0 +1,124 @@
+[
+{
+  "id": "mrt_station",
+  "category": "城市交通",
+  "title": "捷運站體",
+  "desc": "台北捷運站的月台、人群與列車進站聲，展現大眾運輸系統獨有的流動節奏與都會日常氛圍。",
+  "sound": "/assets/sounds/mrt_station_platform.mp3",
+  "main_image": "/assets/images/platform_overview.jpg",
+  "gallery": [
+    "/assets/images/passengers_queen1.jpg",
+    "/assets/images/platform_crowd.jpg",
+    "/assets/images/passengers_queen2.jpg",
+    "/assets/images/platform_train_arrival1.jpg"
+  ],
+  "backgrounds": [
+    "/assets/images/platform_train_arrival2.jpg",
+    "/assets/images/platform_side1.jpg",
+    "/assets/images/platform_side2.jpg",
+    "/assets/images/station_exterior1.jpg",
+    "/assets/images/station_exterior2.jpg"
+  ],
+    "story": "下班時分，月台上的每個身影、鞋底敲擊的回響、廣播的指引，串連出城市日復一日的節奏。也許你正與陌生人擦肩而過，卻又在同一段軌道上與所有人的生活交織。這些聲音，是台北最平凡卻也最真實的日常故事——你是否也曾在這些月台上思索著未來，或在車門開啟時與生活再度相遇？",
+    "location": "台北捷運板南線、台北車站",
+    "date": "2024年3月"
+
+},
+{
+  "id": "alishan_birds",
+  "category": "自然環境",
+  "title": "阿里山鳥鳴",
+  "desc": "清晨的阿里山，杉林、茶園、雲海交錯，伴隨鳥鳴與森林的聲音。",
+  "sound": "/assets/sounds/alishan_forest_trees.mp3",
+  "main_image": "/assets/images/alishan_pond_bridge.jpg",
+  "gallery": [
+    "/assets/images/alishan_misty_stairs1.jpg",
+    "/assets/images/alishan_ridge_light.jpg",
+    "/assets/images/alishan_misty_stairs2.jpg",
+    "/assets/images/alishan_sunrise_sea.jpg"
+  ],
+  "backgrounds": [
+    "/assets/images/alishan_forest_upshot.jpg",
+    "/assets/images/alishan_cloudroad_sunset.jpg",
+    "/assets/images/alishan_tea_field.jpg",
+    "/assets/images/alishan_tea_workers.jpg",
+    "/assets/images/alishan_tea_farview.jpg",
+    "/assets/images/alishan_forest_path.jpg",
+    "/assets/images/alishan_forest_stairs.jpg"
+  ],
+    "story": "當晨曦穿過高聳杉林，阿里山的空氣充滿濕潤的土壤氣息，鳥鳴此起彼落，彷彿輕聲訴說山林間的秘密。茶園裡微風輕拂，霧氣在樹間流轉，這一切是屬於大地最純粹的樂章。你有多久沒讓自己在大自然的擁抱中，聆聽心靈最寧靜的聲音？讓阿里山的鳥鳴帶你暫時離開塵囂，感受生命的慢活與寧靜。",
+    "location": "嘉義縣阿里山國家風景區",
+    "date": "2023年4月"
+},
+{
+  "id": "keelung_waves",
+  "category": "城市海岸",
+  "title": "基隆海浪",
+  "desc": "和平島、港灣、漁船與城市天際線，展現基隆的多層次海港風貌。",
+  "sound": "/assets/sounds/daping_coast_waves.mp3",
+  "main_image": "/assets/images/keelung_landmark.jpg",
+  "gallery": [
+    "/assets/images/keelung_nightview.jpg",
+    "/assets/images/keelung_fishingboat_main.jpg",
+    "/assets/images/keelung_peace_island1.jpg",
+    "/assets/images/keelung_port_sunset1.jpg",
+    "/assets/images/keelung_aerial1.jpg"
+  ],
+  "backgrounds": [
+    "/assets/images/keelung_peace_aerial2.jpg",
+    "/assets/images/keelung_harbor_modern.jpg",
+    "/assets/images/keelung_harbor_city.jpg",
+    "/assets/images/keelung_fishingboat_daily.jpg"
+  ],
+    "story": "基隆的風帶著鹹鹹的海味，港口燈火與海浪聲交織成專屬於這座海港的旋律。無論是清晨捕魚人家的忙碌、還是夜晚漁船微光下的低語，海聲都在告訴你：這裡的每一刻都流動著生活的溫度。走過和平島的岩岸、遠眺天際的港灣，你是否也曾在這座城市的潮聲中，找到一段專屬於自己的靜謐與遼闊？",
+    "location": "基隆市和平島、基隆港",
+    "date": "2024年2月"
+},
+{
+  "id": "nightmarket",
+  "category": "城市聲色",
+  "title": "夜市叫賣",
+  "desc": "台灣夜市的熱鬧叫賣、人潮、燈火與街頭美食，交織成台灣城市獨有的夜色。",
+  "sound": "/assets/sounds/nightmarket_crowd.mp3",
+  "main_image": "/assets/images/nightmarket_overview.jpg",
+  "gallery": [
+    "/assets/images/nightmarket_overview.jpg",
+    "/assets/images/nightmarket_gate_raohest.jpg",
+    "/assets/images/nightmarket_street1.jpg",
+    "/assets/images/nightmarket_crowd1.jpg",
+    "public/assets/images/nightmarket_stall_fruit.jpg"
+  ],
+  "backgrounds": [
+    "public/assets/images/nightmarket_stall_takoyaki.jpg",
+    "/assets/images/nightmarket_stall_grill.jpg",
+    "/assets/images/lanterns_jiufen_people.jpg",
+    "/assets/images/lanterns_jiufen_close.jpg"
+  ],
+    "story": "每當夜色降臨，熱情的叫賣聲、繽紛的霓虹與陣陣美食香氣，將台灣夜市點亮成一座不夜城。小販的招呼、遊客的笑聲、鐵板上滋滋作響的音樂，是這塊土地最活潑真誠的日常。或許你曾在人海中邂逅熟悉的味道、或與朋友共同創造深夜最溫暖的記憶——這些聲音，是城市裡屬於我們的快樂密碼。",
+    "location": "台北市饒河夜市、士林夜市等",
+    "date": "2024年5月"
+},
+{
+  "id": "temple_parade",
+  "category": "民俗節慶",
+  "title": "廟會鑼鼓",
+  "desc": "廟宇香火、神轎、鑼鼓與萬人祈福的熱鬧廟會聲景。",
+  "sound": "/assets/sounds/temple_parade_drums.mp3",
+  "main_image": "/assets/images/temple_parade_night1.jpg",
+  "gallery": [
+    "/assets/images/temple_parade_float1.jpg",
+    "/assets/images/temple_parade_float2.jpg",
+    "/assets/images/temple_prayer_people.jpg",
+    "/assets/images/temple_day_crowd.jpeg"
+  ],
+  "backgrounds": [
+    "/assets/images/temple_night_gate.jpg",
+    "/assets/images/temple_day_gate.jpg",
+    "/assets/images/temple_smoke_burners.jpeg"
+  ],
+    "story": "一隊隊神轎穿梭巷弄，鼓聲如浪、煙火與香爐交織成屬於台灣的神聖祝禱。人潮隨鑼鼓節奏起舞，無論老少，每個人都在信仰的凝聚中找到歸屬與感動。這是我們土地上最熱情、最深厚的記憶——廟會不只是儀式，更是情感與社區連結的最佳展現。你是否也曾在煙火下雙手合十，為家人祈願平安？",
+    "location": "台北大龍峒保安宮、台南鹽水蜂炮、各地廟宇",
+    "date": "2024年元宵、三月瘋媽祖"
+}
+
+]
